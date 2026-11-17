@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tolva — Finance workspace</title><link rel="stylesheet" href="styles.css"></head>
+<body><div class="app">
+<header class="topbar">
+ <div class="brand"><span class="brand-mark">◉</span><b>tolva</b></div>
+ <nav class="main-nav" id="mainNav"><span class="nav-pill" id="navPill"></span>
+  <button class="nav-link active" data-page="Overview">Overview</button><button class="nav-link" data-page="Autopay">Autopay</button>
+  <button class="nav-link" data-page="Bills">Bills <i>6</i></button><button class="nav-link" data-page="Duty & tax">Duty &amp; tax <i>2</i></button>
+  <button class="nav-link" data-page="Cash flow">Cash flow</button><button class="nav-link" data-page="Reports">Reports</button>
+  <button class="nav-link" data-page="Projects">Projects</button><button class="nav-link" data-page="Suppliers">Suppliers</button>
+ </nav>
+ <div class="top-actions"><button class="circle-btn" id="addBtn">＋</button><button class="circle-btn" id="searchBtn">⌕</button><button class="circle-btn">◷</button><button class="circle-btn">♧</button><span class="avatar">MO</span><div class="user"><b>Maren Oksøy</b><small>Finance lead</small></div><button class="circle-btn settings">⚙</button></div>
+</header><main id="content"></main></div>
+<div class="toast" id="toast"></div>
+<div class="modal-bg" id="modal"><form class="modal" id="modalForm"><button type="button" class="close" id="close">×</button><div class="eyebrow">TOLVA WORKSPACE</div><h2 id="modalTitle">New item</h2><div id="modalFields"></div><div class="modal-actions"><button type="button" class="ghost" id="cancel">Cancel</button><button class="primary">Save</button></div></form></div>
+<script src="app.js"></script></body></html>
